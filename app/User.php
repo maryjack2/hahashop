@@ -2,9 +2,11 @@
 
 namespace App;
 
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
+use TCG\Voyager\Models\Role;
+use Voyager;
 
 class User extends \TCG\Voyager\Models\User
 {
@@ -16,7 +18,7 @@ class User extends \TCG\Voyager\Models\User
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password','username'
     ];
 
     /**
@@ -36,4 +38,21 @@ class User extends \TCG\Voyager\Models\User
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    //示範Accessor
+    public function getAvatarAttribute($value){
+        return Voyager::image($value);
+    }
+
+    //示範魔法屬性Accessor
+    public function getRoleNameAttribute(){
+        $role = Role::findOrFail($this->role_id);
+        return $role->display_name;
+    }
+
+    //示範Mutator
+    // public function setNameAttribute($value)
+    // {
+    //     $this->attributes['name'] = 'name:' . $value;
+    // }
 }
