@@ -5,7 +5,11 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+<<<<<<< HEAD
 use Illuminate\Http\Request;
+=======
+use Auth;
+>>>>>>> e5b9347677a7fa3165ac115b9bb4a1084d67c312
 
 class LoginController extends Controller
 {
@@ -27,7 +31,11 @@ class LoginController extends Controller
      *
      * @var string
      */
+<<<<<<< HEAD
     protected $redirectTo = RouteServiceProvider::HOME;
+=======
+    protected $redirectTo = '/home';
+>>>>>>> e5b9347677a7fa3165ac115b9bb4a1084d67c312
 
     /**
      * Create a new controller instance.
@@ -39,6 +47,7 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
+<<<<<<< HEAD
     public function redirectTo(){    
     if(Auth::user()->role_id == 2){
         //假如是一般使用者
@@ -55,4 +64,17 @@ class LoginController extends Controller
     {
         return redirect('/my/logout/path');
     }
+=======
+    public function redirectTo(){
+        if(Auth::user()->role_id ==2){
+        //假如是一般使用者
+            return '/home';
+        }else if (Auth::user()->role_id == 1){
+            //假如是管理者
+            return '/admin';
+        }else{
+            return '/login';
+    }
+}
+>>>>>>> e5b9347677a7fa3165ac115b9bb4a1084d67c312
 }
