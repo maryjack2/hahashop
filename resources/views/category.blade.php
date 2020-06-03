@@ -51,7 +51,7 @@
         </div>
 
 <!-- ? -->
-        <div class="container-fluid text-white m-0 ">  
+        <div class="container-fluid text-white m-0 ">
           <!-- Navbar Header  -->
           <div class="logo" style="width: 70px;"><img src="img/logo.png" alt="..."></div>
           <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars text-white"></i></button>
@@ -60,19 +60,19 @@
           <div id="navbarCollapse" class="collapse navbar-collapse mt-3 ">
             <ul class="navbar-nav mx-auto ">
         <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="myindex">Home <span class="sr-only">(current)</span></a>
         </li>
 
-              
 
 
-             
+
+
 <!-- Nav Shop -->
 <li class="nav-item dropdown "><a id="navbarDropdownMenuLink" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">Shop<i class="fa fa-angle-down"></i></a>
     <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-        <li><a href="category.html" class="dropdown-item">Products</a></li>
+        <li><a href="category" class="dropdown-item">Products</a></li>
                 <!--   <li><a href="#" class="dropdown-item">haha2</a></li> -->
-                 
+
     </ul>
 </li>
 
@@ -88,7 +88,7 @@
               <div class="search"><i class="icon-search"></i></div>
 
 <!-- User Not Logged - link to login page-->
-              <div class="user"> <a id="userdetails" href="customer-login.html" class="user-link"><i class="icon-profile"></i></a></div>
+              <div class="user"> <a id="userdetails" href="login" class="user-link"><i class="icon-profile"></i></a></div>
 
 <!-- Cart Dropdown-->
               <div class="cart dropdown show"><a id="cartdetails" href="https://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="icon-cart"></i>
@@ -124,7 +124,7 @@
           </div>
           <div class="col-lg-3 text-right order-1 order-lg-2 mt-3">
             <ul class="breadcrumb justify-content-lg-end">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="myindex">Home</a></li>
               <li class="breadcrumb-item active">Shop</li>
             </ul>
           </div>
@@ -197,9 +197,9 @@
                 </div>
               </form>
             </div>
-            <div class="block"> 
+            <div class="block">
               <h6 class="text-uppercase">Size </h6>
-              <form action="#">  
+              <form action="#">
                 <div class="form-group mb-1">
                   <input id="size0" type="radio" name="size" checked class="radio-template">
                   <label for="size0">Small</label>
@@ -290,8 +290,8 @@
                       <h3 class="h6 text-uppercase no-margin-bottom">Elegant Gray</h3></a><span class="price text-muted">$40.00</span></div>
                 </div>
               </div>
-             
-              
+
+
               <div class="item col-xl-4 col-md-6">
                 <div class="product is-gray">
                   <div class="image d-flex align-items-center justify-content-center"><img src="img/index_leatherbag1.jpg" alt="product" class="img-fluid">
@@ -303,9 +303,9 @@
                       <h3 class="h6 text-uppercase no-margin-bottom">Elegant Lake</h3></a><span class="price text-muted">$40.00</span></div>
                 </div>
               </div>
-             
-             
-            
+
+
+
             </div>
             <nav aria-label="page navigation example" class="d-flex justify-content-center">
               <ul class="pagination pagination-custom">
@@ -328,7 +328,7 @@
       <div role="document" class="modal-dialog">
         <div class="modal-content">
           <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true"><i class="icon-close"></i></span></button>
-          <div class="modal-body"> 
+          <div class="modal-body">
             <div class="ribbon-primary text-uppercase">Sale</div>
             <div class="row d-flex align-items-center">
               <div class="image col-lg-5"><img src="img/shirt.png" alt="..." class="img-fluid d-block"></div>
@@ -349,7 +349,7 @@
                     <option value="small">Small</option>
                     <option value="meduim">Medium</option>
                     <option value="large">Large</option>
-                    
+
                   </select>
                 </div>
                 <ul class="CTAs list-inline">
@@ -364,7 +364,7 @@
     </div>
     <!-- Footer-->
         <footer class="main-footer">
-      
+
       <!-- Main Block -->
       <div class="main-block">
         <div class="container">
@@ -376,8 +376,8 @@
                 <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
                 <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-                
-               
+
+
               </ul>
             </div>
             <div class="site-links col-lg-2 col-md-6">
@@ -395,7 +395,7 @@
               <ul class="list-unstyled">
                 <li> <a href="#">Privacy Policy</a></li>
                 <li> <a href="#">Terms & Conditions</a></li>
-                
+
               </ul>
             </div>
             <div class="newsletter col-lg-4">
@@ -417,14 +417,14 @@
             <div class="text col-md-6 ">
               <p>&copy; 2020 </p>
             </div>
-           
+
           </div>
         </div>
       </div>
        <div class="top-bar ">
-        
+
           <div class="row d-flex align-items-center mb-0">
-           
+
             <div class="col-lg-12 d-flex justify-content-center">
               <!-- Language Dropdown-->
               <div class="dropdown show"><a id="langsDropdown" href="https://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><img src="img/united-kingdom.svg" alt="english">English</a>
@@ -458,17 +458,17 @@
               percentPosition: true,
               transitionDuration: 0,
           });
-      
+
           $grid.imagesLoaded().progress( function() {
               $grid.masonry();
           });
       })
-      
-      
+
+
     </script>
     <script>
       var snapSlider = document.getElementById('slider-snap');
-      
+
       noUiSlider.create(snapSlider, {
       	start: [ 40, 110 ],
       	snap: false,
@@ -486,8 +486,8 @@
       snapSlider.noUiSlider.on('update', function( values, handle ) {
       	snapValues[handle].innerHTML = values[handle];
       });
-                  
-      
+
+
     </script>
     <!-- Main Template File-->
     <script src="js/front.js"></script>

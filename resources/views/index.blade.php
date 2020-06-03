@@ -31,10 +31,10 @@
     <!-- Modernizr-->
     <script src="js/modernizr.custom.79639.js"></script>
     <style>
-      
+
       #body{
         background-color: #E7FCE7;
-        
+
       }
     </style>
   </head>
@@ -55,27 +55,27 @@
         </div>
 
 <!-- ? -->
-        <div class="container-fluid text-white m-0 ">  
+        <div class="container-fluid text-white m-0 ">
           <!-- Navbar Header  -->
-          <a href="index.html" class="navbar-brand "><img src="img/logo.png" alt="..." style="width: 70px; "></a>
+          <a href="myindex" class="navbar-brand "><img src="img/logo.png" alt="..." style="width: 70px; "></a>
           <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars text-white"></i></button>
 
           <!-- Navbar Collapse -->
           <div id="navbarCollapse" class="collapse navbar-collapse mt-3 ">
             <ul class="navbar-nav mx-auto ">
         <li class="nav-item active">
-            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="myindex">Home <span class="sr-only">(current)</span></a>
         </li>
 
 
 
-             
+
 <!-- Nav Shop -->
 <li class="nav-item dropdown "><a id="navbarDropdownMenuLink" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">Shop<i class="fa fa-angle-down"></i></a>
     <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-        <li><a href="category.html" class="dropdown-item">Products</a></li>
+        <li><a href="category" class="dropdown-item">Products</a></li>
                 <!--   <li><a href="#" class="dropdown-item">haha2</a></li> -->
-                 
+
     </ul>
 </li>
 
@@ -93,7 +93,7 @@
               <div class="search"><i class="icon-search"></i></div>
 
 <!-- User Not Logged - link to login page-->
-              <div class="user"> <a id="userdetails" href="customer-login.html" class="user-link"><i class="icon-profile"></i></a></div>
+              <div class="user"> <a id="userdetails" href="login" class="user-link"><i class="icon-profile"></i></a></div>
 
 <!-- Cart Dropdown-->
               <div class="cart dropdown show"><a id="cartdetails" href="https://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="icon-cart"></i>
@@ -112,7 +112,7 @@
                   <!-- total price-->
                   <div class="dropdown-item total-price d-flex justify-content-between"><span>Total</span><strong class="text-primary">$75.00</strong></div>
                   <!-- call to actions-->
-                  <div class="dropdown-item CTA d-flex"><a href="cart.html" class="btn btn-template wide">View Cart</a><a href="checkout1.html" class="btn btn-template wide">Checkout</a></div>
+                  <div class="dropdown-item CTA d-flex"><a href="cart.html" class="btn btn-template wide">View Cart</a><a href="checkout1" class="btn btn-template wide">Checkout</a></div>
                 </div>
               </div>
             </div>
@@ -160,18 +160,18 @@
     </section>
 
 
-    
 
 
 
-    
 
 
 
- 
+
+
+
     <!-- Divider Section-->
-   
-    <!-- Women's Collection -->
+
+    <!-- Womens Collection -->
     <section class="women-collection">
       <div class="container">
         <header class="text-center">
@@ -184,10 +184,10 @@
             <div class="product is-gray">
               <div class="image d-flex align-items-center justify-content-center"><img src="img/P1.jpg" alt="product" class="img-fluid">
                 <div class="hover-overlay d-flex align-items-center justify-content-center">
-                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail.html" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
+                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#"class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
                 </div>
               </div>
-              <div class="title"><a href="detail.html">
+              <div class="title"><a href="detail">
                   <h3 class="h6 text-uppercase no-margin-bottom">Elegant Round</h3></a><span class="price text-muted">NT.5000</span></div>
             </div>
           </div>
@@ -196,10 +196,10 @@
             <div class="product is-gray">
               <div class="image d-flex align-items-center justify-content-center"><img src="img/P2.jpg" alt="product" class="img-fluid">
                 <div class="hover-overlay d-flex align-items-center justify-content-center">
-                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail.html" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
+                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
                 </div>
               </div>
-              <div class="title"><a href="detail.html">
+              <div class="title"><a href="detail">
                   <h3 class="h6 text-uppercase no-margin-bottom">Elegant bag</h3></a><span class="price text-muted">NT.3000</span></div>
             </div>
           </div>
@@ -207,10 +207,10 @@
             <div class="product is-gray">
               <div class="image d-flex align-items-center justify-content-center"><img src="img/p3.jpg" alt="product" class="img-fluid">
                 <div class="hover-overlay d-flex align-items-center justify-content-center">
-                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail.html" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
+                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
                 </div>
               </div>
-              <div class="title"><a href="detail.html">
+              <div class="title"><a href="detail">
                   <h3 class="h6 text-uppercase no-margin-bottom">Elegant Blue</h3></a><span class="price text-muted">NT.3000</span></div>
             </div>
           </div>
@@ -218,10 +218,10 @@
             <div class="product is-gray">
               <div class="image d-flex align-items-center justify-content-center"><img src="img/P6.jpg" alt="product" class="img-fluid ">
                 <div class="hover-overlay d-flex align-items-center justify-content-center">
-                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail.html" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
+                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
                 </div>
               </div>
-              <div class="title"><a href="detail.html">
+              <div class="title"><a href="detail">
                   <h3 class="h6 text-uppercase no-margin-bottom">Elegant Lake</h3></a><span class="price text-muted">NT.3000</span></div>
             </div>
           </div>
@@ -229,10 +229,10 @@
             <div class="product is-gray">
               <div class="image d-flex align-items-center justify-content-center"><img src="img/P7.jpg" alt="product" class="img-fluid">
                 <div class="hover-overlay d-flex align-items-center justify-content-center">
-                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail.html" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
+                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
                 </div>
               </div>
-              <div class="title"><a href="detail.html">
+              <div class="title"><a href="detail">
                   <h3 class="h6 text-uppercase no-margin-bottom">Elegant Gray</h3></a><span class="price text-muted">NT.6000</span></div>
             </div>
           </div>
@@ -240,10 +240,10 @@
             <div class="product is-gray">
               <div class="image d-flex align-items-center justify-content-center"><img src="img/p3.jpg" alt="product" class="img-fluid">
                 <div class="hover-overlay d-flex align-items-center justify-content-center">
-                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail.html" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
+                  <div class="CTA d-flex align-items-center justify-content-center"><a href="#" class="add-to-cart"><i class="fa fa-shopping-cart"></i></a><a href="detail" class="visit-product active"><i class="icon-search"></i>View</a><a href="#" data-toggle="modal" data-target="#exampleModal" class="quick-view"><i class="fa fa-arrows-alt"></i></a></div>
                 </div>
               </div>
-              <div class="title"><a href="detail.html">
+              <div class="title"><a href="detail">
                   <h3 class="h6 text-uppercase no-margin-bottom">Elegant Black</h3></a><span class="price text-muted">NT.5000</span></div>
             </div>
           </div>
@@ -251,13 +251,13 @@
       </div>
     </section>
     <!-- Blog Section-->
-    
+
           <!-- /end post-->
           <!-- post-->
           <!-- <div class="col-lg-6">
             <div class="post post-gray d-flex align-items-center flex-md-row flex-column">
               <div class="thumbnail d-flex-align-items-center justify-content-center"><img src="img/blog-2.jpg" alt="..."></div>
-              <div class="info"> 
+              <div class="info">
                 <h4 class="h5"> <a href="post.html">Best books about Photography </a></h4><span class="date"><i class="fa fa-clock-o"></i>May 10th 2020</span>
                 <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.  Mauris placerat eleifend leo.</p><a href="post.html" class="read-more">Read More<i class="fa fa-long-arrow-right"></i></a>
               </div>
@@ -267,13 +267,13 @@
         </div>
       </div>
     </section>
-    
+
     <!-- Overview Popup    -->
     <div id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade overview">
       <div role="document" class="modal-dialog">
         <div class="modal-content">
           <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true"><i class="icon-close"></i></span></button>
-          <div class="modal-body"> 
+          <div class="modal-body">
             <div class="ribbon-primary text-uppercase">Sale</div>
             <div class="row d-flex align-items-center">
               <div class="image col-lg-5"><img src="img/P1.jpg" alt="..." class="img-fluid d-block"></div>
@@ -323,7 +323,7 @@
                 <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
                 <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-                
+
               </ul>
             </div>
            <div class="site-links col-lg-2 col-md-6">
@@ -341,7 +341,7 @@
               <ul class="list-unstyled">
                 <li> <a href="#">Privacy Policy</a></li>
                 <li> <a href="#">Terms & Conditions</a></li>
-                
+
               </ul>
             </div>
             <div class="newsletter col-lg-4">
@@ -367,9 +367,9 @@
           </div>
           </div>
           <div class="top-bar ">
-        
+
           <div class="row d-flex align-items-center mb-0">
-           
+
             <div class="col-lg-12 d-flex justify-content-center">
               <!-- Language Dropdown-->
               <div class="dropdown show"><a id="langsDropdown" href="https://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><img src="img/united-kingdom.svg" alt="english">English</a>
@@ -404,13 +404,13 @@
               percentPosition: true,
               transitionDuration: 0,
           });
-      
+
           $grid.imagesLoaded().progress( function() {
               $grid.masonry();
           });
       })
-      
-      
+
+
     </script>
     <!-- Main Template File-->
     <script src="js/front.js"></script>
