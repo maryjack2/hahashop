@@ -21,3 +21,16 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+
+Route::get('/menu',function(){
+return menu('frontend','bootstrap');
+});
+
+Route::get('/index', 'HomeController@index');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
